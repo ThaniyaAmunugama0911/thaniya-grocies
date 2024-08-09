@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Grocies</title>
+    <link rel="stylesheet" href="../style/style.css" >
+</head>
+<body bgcolor="#1D2E28">
+    <header>
+        <div class="header-main-container">
+            <div class="image-container">
+                <img class="logo" src="../Images/logo.png">
+            </div>
+            <div class="right-section">
+                <div class="search-box">
+                    <input type="search" placeholder="Search Here" class="search">
+                    <button class="search-button">
+                        <img src="../Images/searchicon.png">
+                    </button>
+                </div>
+                <div class="navigation-bar">
+                    <nav >
+                        <ul class="main-nav">
+                            <li class="sub-nav"><a href="../index.html">Home</a></li>
+                            <li class="sub-nav"><a href="about_us.html">About us</a></li>
+                            <div class="dropdown">
+                                <li class="sub-nav"><a href="#">Products</a>
+                                    <ul class="dropdown-content">
+                                        <li class="sub-nav"><a href="dairy.html">Dairy Products</a></li>
+                                        <li class="sub-nav"><a href="vegetables.html">Vegetables</a></li>
+                                        <li class="sub-nav"><a href="meatandseafood.html">Meat and seafood</a></li>
+                                        <li class="sub-nav"><a href="fruits.html">Fruits</a></li>
+                                        <li class="sub-nav"><a href="bakery.html">Bakery and Cooking Ingridients</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            
+                            <li class="sub-nav"><a href="order.html">Order Page</a></li>
+                            <li class="sub-nav"><a href="loyalty.html">Loyalty Registrations</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="buttons">
+                <div>
+                    <a href="cart.html"><img src="../Images/cart.png"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="cart">
+            <div class="cart-div-main">
+                <div class="cart-div-sub">
+                    <div class="orderContainer">
+                        <h1>Dairy Products</h1>
+                        
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Kotmale Cheese Wedges 120g">Kotmale Cheese Wedges 120g</option>
+                            <option value="Kotmale Swiss Type Cheese 200g">Kotmale Swiss Type Cheese 200g</option>
+                            <option value="Kotmale Processed Cheese Paneer 200g">Kotmale Processed Cheese Paneer 200g</option>
+                            <option value="Kraft Cheese Pkt 250g">Kraft Cheese Pkt 250g</option>
+                            <option value="Ambewela Uht Milk 1L">Ambewela Uht Milk 1L</option>
+                            <option value="Kotmale Full Cream Plain Milk 1L">Kotmale Full Cream Plain Milk 1L</option>
+                            <option value="Kotmale Full Cream Vanilla 1L">Kotmale Full Cream Vanilla 1L</option>
+                            <option value="Kotmale Full Cream Chocolate 1L">Kotmale Full Cream Chocolate 1L</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    </div>
+                    <div class="orderContainer">
+                        <h1>Vegetabes</h1>
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Pre-Packed Garlic">Pre-Packed Garlic</option>
+                            <option value="Cucumber">Cucumber</option>
+                            <option value="Red Onions">Red Onions</option>
+                            <option value="Plantain Flower">Plantain Flower</option>
+                            <option value="Sweet Potato">Sweet Potato</option>
+                            <option value="Kohila">Kohila</option>
+                            <option value="Batana">Batana</option>
+                            <option value="Green Cucumber">Green Cucumber</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    </div>
+                    <div class="orderContainer">
+                        <h1>Meat and Seafood</h1>
+                        
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Chicken Full Breast Skinless">Chicken Full Breast Skinless</option>
+                            <option value="Aust. Beef">Aust. Beef</option>
+                            <option value="Bone In Curry PorkPork Leg Bone In">Bone In Curry PorkPork Leg Bone In</option>
+                            <option value="Mutton Leg Local">Mutton Leg Local</option>
+                            <option value="Prawns Medium">Prawns Medium</option>
+                            <option value="Sea Chicken">Sea Chicken</option>
+                            <option value="Tuna Fish">Tuna Fish</option>
+                            <option value="Thalapath Small">Thalapath Small</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    </div>
+                    
+                </div>
+                <div class="cart-div-sub">
+                    <div class="orderContainer">
+                        <h1>Fruits</h1>
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Avocado">Avocado</option>
+                            <option value="Apple-Red">Apple-Red</option>
+                            <option value="Apple-Green">Apple-Green</option>
+                            <option value="Kiwi Fruits">Kiwi Fruits</option>
+                            <option value="Pineapple">Pineapple</option>
+                            <option value="Dragon Fruit (Pitaya)">Dragon Fruit (Pitaya)</option>
+                            <option value="Mandarin Imported">Mandarin Imported</option>
+                            <option value="Melon - Red Fantasy">Melon - Red Fantasy</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity">
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    </div>
+                    <div class="orderContainer">
+                        <h1>Bakery Items</h1>
+                        
+                        <label for="options">Select the product:</label>
+                        <br>
+                        <br>
+                        <select id="options">
+                            <option value="hi">Select a product</option>
+                            <option value="Motha Baking Powder 100g">Motha Baking Powder 100g</option>
+                            <option value="Anods Cocoa/Dark Choco Chips 250g">Anods Cocoa/Dark Choco Chips 250g</option>
+                            <option value="Mauri Gelatine 50g">Mauri Gelatine 50g</option>
+                            <option value="Motha Colouring Pink 28ml">Motha Colouring Pink 28ml</option>
+                            <option value="Motha Custard Powder Strawberry 100g">Motha Custard Powder Strawberry 100g</option>
+                            <option value="Motha Essence Vanilla 28ml">Motha Essence Vanilla 28ml</option>
+                            <option value="Nestle Milkmaid 510g">Nestle Milkmaid 510g</option>
+                            <option value="Maurimix Pizza Mix 350g">Maurimix Pizza Mix 350g</option>
+
+                        </select>
+                        <br>
+                        <br>
+                        <label for="quantity">Quantity (kg): </label>
+                        <input type="number" id="quantity" name="" required min="1" value="1" class="quantity"> 
+                        <div id="imageContainer"></div>
+                        <div id="priceContainer"></div>
+                        <button id="add-to-cart-order" type="button">Add To Cart</button>
+                    
+                </div>
+               
+            </div>
+            <div class="cart-table-container">
+
+            </div>
+            <div class="total"></div>
+            <div class="buttons-cart">
+                <div><button class="add-to-fav">Add Cart to Favourites</button></div>
+                <div><button class="remove-fav">Remove Favourites</button></div>
+                <div><button class="load-fav">Add Favourites</button></div>
+                <div><button id="buy-now" class="Buy-Now">Buy Now</button></div>
+                <div><button class="clear-cart">Clear Cart</button></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-section">
+                <a href="../index.html">
+                    <img src="../Images/logo.png" class="logo-footer">
+                </a>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="dairy.html"></a>Dairy</li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="meatandseafood.html">Meat and Seafood</a></li>
+                        <li><a href="fruits.html">Fruits</a></li>
+                        <li><a href="bakery.html">Bakery and Cooking Ingridients</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="loyalty.html">Loyalty Registrations</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Customer Services</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/keells.sl/?hl=en" class="social-link">
+                            <img src="../Images/social-media/instagram.png" class="social-media-btn">
+                        </a>
+                        <a href="https://business.whatsapp.com/resources/success-stories/carrefour-group" class="social-link">
+                            <img src="../Images/social-media/whatsapp.png" class="social-media-btn">
+                        </a>
+                        <a href="https://x.com/keells_sl?lang=en" class="social-link">
+                            <img src="../Images/social-media/twitter.png" class="social-media-btn">
+                        </a>
+                        <a href="https://web.facebook.com/Keells.SL/?_rdc=1&_rdr" class="social-link">
+                            <img src="../Images/social-media/facebook.png" class="social-media-btn">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCCu17kGGZjuVITjK4Z_0N0g" class="social-link">
+                            <img src="../Images/social-media/youtube.png" class="social-media-btn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- References
+        www.keellssuper.com. (n.d.). Keells Online. [online] Available at: https://keellssuper.com/home.
+
+        Target (2023). Target : Expect more. pay less. [online] Target.com. Available at: https://www.target.com/.
+
+        Glomark.lk. (2019). Home | Glomark.lk. [online] Available at: https://glomark.lk/.
+
+        SPAR Sri Lanka. (n.d.). Welcome to SPAR Sri Lanka ONLINE! [online] Available at: https://www.spar.lk/. -->
+</footer>
+<script type="module" src="../scripts/products.js"></script>
+</body>
+</html>

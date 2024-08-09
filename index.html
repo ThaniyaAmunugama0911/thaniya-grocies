@@ -1,11 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Grocies</title>
+    <link rel="stylesheet" href="style/style.css" >
 </head>
-<body>
+<body bgcolor="#1D2E28">
+    <header>
+        <div class="header-main-container">
+            <div class="image-container">
+                <img class="logo" src="../Images/logo.png">
+            </div>
+            <div class="right-section">
+                <div class="search-box">
+                    <input type="search" placeholder="Search Here" class="search">
+                    <button class="search-button">
+                        <img src="../Images/searchicon.png">
+                    </button>
+                </div>
+                <div class="navigation-bar">
+                    <nav >
+                        <ul class="main-nav">
+                            <li class="sub-nav"><a href="../index.html">Home</a></li>
+                            <li class="sub-nav"><a href="html websites/about_us.html">About us</a></li>
+                            <div class="dropdown">
+                                <li class="sub-nav"><a href="#">Products</a>
+                                    <ul class="dropdown-content">
+                                        <li class="sub-nav"><a href="html websites/dairy.html">Dairy Products</a></li>
+                                        <li class="sub-nav"><a href="html websites/vegetables.html">Vegetables</a></li>
+                                        <li class="sub-nav"><a href="html websites/meatandseafood.html">Meat and seafood</a></li>
+                                        <li class="sub-nav"><a href="html websites/fruits.html">Fruits</a></li>
+                                        <li class="sub-nav"><a href="html websites/bakery.html">Bakery and Cooking Ingridients</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            
+                            <li class="sub-nav"><a href="html websites/order.html">Order Page</a></li>
+                            <li class="sub-nav"><a href="html websites/loyalty.html">Loyalty Registrations</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="buttons">
+                <div>
+                    <a href="cart.html"><img src="../Images/cart.png"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div><img src="Images/mainimg.png" class="mainimg"></div>
+        </section>
     
+        <section class="section-welcome-msg">
+            <!-- The section named section-welcome-msg contains the welcome message along with some of the services provided -->
+            <div class="welcome-msg">
+                <h1 class="welcome-msg-h1">Welcome to Grocies Supermarket!</h1>
+                <p class="welcome-msg-p">We warmly welcome you to Grocies, your local store providing superior groceries and outstanding service. It provides a large assortment of skincare, dairy, and fresh vegetables. </p>
+                <p class="services">Our store priortizes: </p>
+                <div id="flexbox-services">
+                    <div>
+                        <!-- "Services-section" is a sub-section under the main section section-welcome-msg, these sections are flexboxes used to show the services -->
+                        <section class="services-section">
+                            <h3>Eco Friendliness</h3>
+                            <img src="Images/eco-friendly.jpg" class="img-services">
+                            <br>
+                            <p>Grocies supermarkets prioritizes eco-friendliness, reducing waste through efforts such as reduction in plastic packaging and locally sourced goods.</p>
+                            <p>Customers like the emphasis on sustainability, making informed shopping decisions, and contributing to a greener neighborhood.</p>
+                        </section>
+                    </div>
+                    <div>
+                        <section class="services-section">
+                            <h3>Farmers</h3>
+                            <img src="Images/farmer.png.jpeg" class="img-services">
+                            <br>
+                            <p>The store launched an innovative program to support local farmers by linking them directly with customers. </p>
+                            <p>The integration enhances product quality and diversity, bolsters ethical sourcing standards, and promotes a healthier food system for producers and consumers.</p>
+                        </section>
+                    </div>
+                    <div>
+                        <section class="services-section">
+                            <h3>Recycling</h3>
+                            <img src="Images/recycle.jpeg" class="img-services">
+                            <br>
+                            <p>The supermarket effectively manages the collection of spent plastic, paper, and glass items, promoting environmental sustainability within the community.</p>
+                            <p>Customers can conveniently drop off recyclables at designated bins, contributing to a greener future and enjoying the convenience of one-stop shopping.</p>
+                        </section>
+                    </div>
+            </div>  
+        </section>
+ 
+        
+        <section class="online-shop">
+            <h1>Our Online Shop</h1>
+            <div class="online-shop-div">
+                <div><img src="Images/online shop.jpg"></div>
+                <div><img src="Images/delivery.jpeg"></div>
+            </div>
+                <p>Now you can do your groceries from the comfort of your sofa, with our website.</p>
+                <ol>
+                    <li>Add the required groceries to your cart</li>
+                    <li>Choose your payment method</li>
+                    <li>Click Order</li>
+                    <li>Your groceries will be at your doorstep</li>
+                </ol>
+                <p>There will be exclusive discounts on certain products that are only available online. Don't miss out!!!</p>            
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-section">
+                <a href="../index.html">
+                    <img src="../Images/logo.png" class="logo-footer">
+                </a>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="html websites/about_us.html">About Us</a></li>
+                        <li><a href="html websites/dairy.html">Dairy</a></li>
+                        <li><a href="html websites/vegetables.html">Vegetables</a></li>
+                        <li><a href="html websites/meatandseafood.html">Meat and Seafood</a></li>
+                        <li><a href="html websites/fruits.html">Fruits</a></li>
+                        <li><a href="html websites/bakery.html">Bakery and Cooking Ingridients</a></li>
+                        <li><a href="html websites/order.html">Order</a></li>
+                        <li><a href="html websites/loyalty.html">Loyalty Registrations</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Customer Services</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/keells.sl/?hl=en" class="social-link">
+                            <img src="../Images/social-media/instagram.png" class="social-media-btn">
+                        </a>
+                        <a href="https://business.whatsapp.com/resources/success-stories/carrefour-group" class="social-link">
+                            <img src="../Images/social-media/whatsapp.png" class="social-media-btn">
+                        </a>
+                        <a href="https://x.com/keells_sl?lang=en" class="social-link">
+                            <img src="../Images/social-media/twitter.png" class="social-media-btn">
+                        </a>
+                        <a href="https://web.facebook.com/Keells.SL/?_rdc=1&_rdr" class="social-link">
+                            <img src="../Images/social-media/facebook.png" class="social-media-btn">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCCu17kGGZjuVITjK4Z_0N0g" class="social-link">
+                            <img src="../Images/social-media/youtube.png" class="social-media-btn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- References
+        www.keellssuper.com. (n.d.). Keells Online. [online] Available at: https://keellssuper.com/home.
+
+        Target (2023). Target : Expect more. pay less. [online] Target.com. Available at: https://www.target.com/.
+
+        Glomark.lk. (2019). Home | Glomark.lk. [online] Available at: https://glomark.lk/.
+
+        SPAR Sri Lanka. (n.d.). Welcome to SPAR Sri Lanka ONLINE! [online] Available at: https://www.spar.lk/. -->
+    </footer>
 </body>
-</html>
