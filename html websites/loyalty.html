@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>Grocies</title>
+    <link rel="stylesheet" href="../style/style.css" >
+</head>
+<body bgcolor="#1D2E28">
+    <header>
+        <div class="header-main-container">
+            <div class="image-container">
+                <img class="logo" src="../Images/logo.png">
+            </div>
+            <div class="right-section">
+                <div class="search-box">
+                    <input type="search" placeholder="Search Here" class="search">
+                    <button class="search-button">
+                        <img src="../Images/searchicon.png">
+                    </button>
+                </div>
+                <div class="navigation-bar">
+                    <nav >
+                        <ul class="main-nav">
+                            <li class="sub-nav"><a href="../index.html">Home</a></li>
+                            <li class="sub-nav"><a href="about_us.html">About us</a></li>
+                            <div class="dropdown">
+                                <li class="sub-nav"><a href="#">Products</a>
+                                    <ul class="dropdown-content">
+                                        <li class="sub-nav"><a href="dairy.html">Dairy Products</a></li>
+                                        <li class="sub-nav"><a href="vegetables.html">Vegetables</a></li>
+                                        <li class="sub-nav"><a href="meatandseafood.html">Meat and seafood</a></li>
+                                        <li class="sub-nav"><a href="fruits.html">Fruits</a></li>
+                                        <li class="sub-nav"><a href="bakery.html">Bakery and Cooking Ingridients</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            
+                            <li class="sub-nav"><a href="order.html">Order Page</a></li>
+                            <li class="sub-nav"><a href="loyalty.html">Loyalty Registrations</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="buttons">
+                <div>
+                    <a href="cart.html"><img src="../Images/cart.png"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="membership">
+            <h1>Membership Tiers and Exclusive Benefits</h1>
+            <div class="membership-div">
+                <div>
+                    <h3>-Gold-</h3>
+                    <br>
+                    <img src="../Images/lr/gold.png" class="membership-img">
+                    <ul>
+                        <li>Monthly Discounts</li>
+                        <li>Unlimited Free Delivery</li>
+                        <li>Double Points</li>
+                        <li>Bonus Points</li>
+                        <li>Dedicated Support Line</li>
+                        <li>Exclusive Events</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>-Silver-</h3>
+                    <br>
+                    <img src="../Images/lr/silver.png" class="membership-img">
+                    <ul>
+                        <li>-Quartely Discounts</li>
+                        <li>Free Delivery</li>
+                        <li>1.5 x Points</li>
+                        <li>Bonus Points during Promotions</li>
+                        <li>Faster Support Line</li>
+                        <li>Selected Events</li>
+                    </ul>
+
+
+                </div>
+                <div>
+                    <h3>-Bronze-</h3>
+                    <br>
+                    <img src="../Images/lr/bronze.png" class="membership-img">
+                    <ul>
+                        <li>Monthly Discounts</li>
+                        <li>Unlimited Free Delivery</li>
+                        <li>Double Points</li>
+                        <li>Bonus Points</li>
+                        <li>Dedicated Support Line</li>
+                        <li>Exclusive Events</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section-register">
+            <form>
+                <h1>
+                    Loyalty Registration Form
+                </h1>
+                <fieldset class="fieldset">
+                    <legend>Personal Information</legend>
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required class="blank">
+                    <br>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required class="blank">
+                    <br>
+                    <br>
+                    <label for="dob-lr">Date of Birth</label>
+                    <input type="date" id="dob-lr" name="dob-lr" required class="blank">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <legend>Contact Information</legend>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required class="blank">
+                    <br>
+                    <br>
+                    <label>Phone Number: </label>
+                    <input type="tel" id="phone" name="phone" required class="blank">
+                    <br>
+                    <br>
+                    <label for="address">Address:</label>
+                    <br>
+                    <br>
+                    <input type="text" id="street-address" name="street-address" required placeholder="Street-Address" class="blank">
+                    <br>
+                    <br>
+                    <input type="text" id="city" name="city" required placeholder="City" class="blank">
+                    <br>
+                    <br>
+                    <input type="text" id="state" name="state" required placeholder="State" class="blank">
+                    <br>
+                    <br>
+                    <input type="text" id="postal-code" name="postal-code" required placeholder="Postal-Code" class="blank">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <legend>Account Information</legend>
+                    <br>
+                    <br>
+                    <label for="username">Preffered Username: </label>
+                    <input type="text" id="username" name="username" required class="blank">
+                    <br>
+                    <br>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" required class="blank">
+                    <br>
+                    <br>
+                    <label for="confirm-password">Confirm-Password: </label>
+                    <input type="password" id="confrim-password" name="confrim-password" required class="blank">
+                    <br>
+                    <br>
+                </fieldset>
+                <fieldset class="fieldset">
+                    <legend>Communication Preferences</legend>
+                    <label>Preffered Contact Method</label> 
+                    <input type="checkbox" id="contact-email" name="contact-email" value="email">Email
+                    <input type="checkbox" id="contact-sms" name="contact-sms" value="sms">SMS
+                    <input type="checkbox" id="contact-letter" name="contact-letter" value="email">Letter
+                </fieldset>
+                <fieldset class="fieldset">
+                    <legend>Loyalty Program Details</legend>
+                    <label for="store-location">Preffered Store Location</label>
+                    <input type="text" id="member-id" name="member-id" class="blank">
+                    <br>
+                    <br>
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I agree to the <a href="/terms" target="_blank">Terms and Conditions</a>
+                    </label>
+                </fieldset>
+                <br>
+                <br>
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+        </section> 
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-section">
+                <a href="../index.html">
+                    <img src="../Images/logo.png" class="logo-footer">
+                </a>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="dairy.html">Dairy</a></li>
+                        <li><a href="vegetables.html">Vegetables</a></li>
+                        <li><a href="meatandseafood.html">Meat and Seafood</a></li>
+                        <li><a href="fruits.html">Fruits</a></li>
+                        <li><a href="bakery.html">Bakery and Cooking Ingridients</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="loyalty.html">Loyalty Registrations</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Customer Services</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/keells.sl/?hl=en" class="social-link">
+                            <img src="../Images/social-media/instagram.png" class="social-media-btn">
+                        </a>
+                        <a href="https://business.whatsapp.com/resources/success-stories/carrefour-group" class="social-link">
+                            <img src="../Images/social-media/whatsapp.png" class="social-media-btn">
+                        </a>
+                        <a href="https://x.com/keells_sl?lang=en" class="social-link">
+                            <img src="../Images/social-media/twitter.png" class="social-media-btn">
+                        </a>
+                        <a href="https://web.facebook.com/Keells.SL/?_rdc=1&_rdr" class="social-link">
+                            <img src="../Images/social-media/facebook.png" class="social-media-btn">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCCu17kGGZjuVITjK4Z_0N0g" class="social-link">
+                            <img src="../Images/social-media/youtube.png" class="social-media-btn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- References
+        www.keellssuper.com. (n.d.). Keells Online. [online] Available at: https://keellssuper.com/home.
+
+        Target (2023). Target : Expect more. pay less. [online] Target.com. Available at: https://www.target.com/.
+
+        Glomark.lk. (2019). Home | Glomark.lk. [online] Available at: https://glomark.lk/.
+
+        SPAR Sri Lanka. (n.d.). Welcome to SPAR Sri Lanka ONLINE! [online] Available at: https://www.spar.lk/. -->
+</footer>
